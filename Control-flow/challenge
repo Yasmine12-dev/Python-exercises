@@ -1,0 +1,9 @@
+n, s = input("Enter an integer and a string: ").split()
+n = int(n)
+
+if n == 0:
+    quit()
+elif any(c in "aeiou" for c in s.lower()) or n >= 42:
+    print(n)
+else:
+    print(s)

@@ -1,0 +1,6 @@
+from math import lcm
+
+for n in [20, 200, 2000]:
+    numbers = range(1, n + 1)
+    answer = lcm(*numbers)
+    print("1 to", n, ":", answer)

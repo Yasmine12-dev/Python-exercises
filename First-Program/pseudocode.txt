@@ -1,0 +1,34 @@
+START
+Choose a random secret word
+Set penalties to 0
+Hide the secret word using underscores
+
+WHILE the game is not finished:
+
+    Display the hidden word
+    Display the number of penalties
+
+    Ask the player to guess a letter or a word
+
+    IF the player enters one letter:
+        IF the letter exists in the secret word:
+            Reveal all occurrences of that letter
+        ELSE:
+            Add 1 penalty
+
+    ELSE IF the player guesses a complete word:
+        IF the word is correct:
+            Display "You win!"
+            END the game
+        ELSE:
+            Add 5 penalties
+
+    IF all letters have been revealed:
+        Display "You win!"
+        END the game
+
+    IF penalties exceed 12:
+        Display "You lose!"
+        END the game
+
+END

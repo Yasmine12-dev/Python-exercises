@@ -1,0 +1,10 @@
+apple
+banana
+orange
+computer
+python
+school
+flower
+garden
+summer
+winter
